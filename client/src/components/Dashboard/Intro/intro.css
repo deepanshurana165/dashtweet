@@ -1,0 +1,26 @@
+.intro {
+  background-color: white;
+  min-height: 60vh;
+  border-radius: 100% 0% 89% 11% / 0% 42% 58% 100%;
+}
+
+.intro .main-image {
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 500px;
+  z-index: 3;
+  border: 2px solid rebeccapurple;
+}
+
+.intro .main-name {
+  font-family: Gugi;
+  font-size: 2.5em;
+}
+
+.intro .heading {
+  font-family: Muli;
+  font-size: 5em;
+  letter-spacing: 0.1em;
+}

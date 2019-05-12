@@ -1,0 +1,60 @@
+.buttons .all-buttons button {
+  padding: 20px;
+  border-radius: 50px;
+  margin-bottom: 20;
+  border: none;
+  min-width: 15%;
+  -webkit-box-shadow: 10px 18px 49px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 18px 49px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 18px 49px -3px rgba(0, 0, 0, 0.75);
+  color: white;
+  background-color: #1565c0;
+  transition: 0.5s;
+}
+
+.buttons .all-buttons button:hover {
+  background-color: #2196f3;
+  /* transform: translateY(5px); */
+}
+
+.buttons input {
+  width: 50%;
+  border: none;
+  border-radius: 50px 0 0 50px;
+  padding: 10px;
+  margin-right: 0;
+  -webkit-box-shadow: 10px 18px 49px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 18px 49px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 18px 49px -3px rgba(0, 0, 0, 0.75);
+  transition: 0.75s;
+}
+
+.buttons input:hover {
+  /* padding: 12px; */
+  -webkit-box-shadow: 10px 18px 72px 25px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 18px 72px 25px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 18px 72px 25px rgba(0, 0, 0, 0.75);
+}
+
+.buttons .input button {
+  padding: 10px;
+  border-radius: 0 50px 50px 0;
+  margin-left: 0;
+  border: none;
+  min-width: 20%;
+  -webkit-box-shadow: 10px 18px 49px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 18px 49px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 18px 49px -3px rgba(0, 0, 0, 0.75);
+  color: white;
+  background-color: #b71c1c;
+  transition: 0.5s;
+}
+
+.buttons .input button:hover {
+  background-color: #ef5350;
+  padding: 10px;
+}
+
+.buttons .input div {
+  width: 80%;
+}

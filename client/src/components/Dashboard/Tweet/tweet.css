@@ -1,0 +1,38 @@
+.tweet .image {
+  background-image: url("https://i.ytimg.com/vi/5tNzh_anCqM/maxresdefault.jpg");
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 500px;
+  z-index: 3;
+  border: 2px solid white;
+}
+
+.tweet .text {
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  background-color: #fafafa;
+  color: black;
+  width: 70%;
+  font-family: "Quicksand", sans-serif;
+  transition: 0.5s;
+}
+
+.tweet .text:hover {
+  -webkit-box-shadow: 10px 10px 54px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 54px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 54px -3px rgba(0, 0, 0, 0.75);
+  transform: translate(5px, 5px);
+}
+
+.tweet .name {
+  font-family: "Gugi", cursive;
+  font-size: 1.5em;
+}
+
+.tweet .date {
+  color: black;
+  font-size: 0.8em;
+}

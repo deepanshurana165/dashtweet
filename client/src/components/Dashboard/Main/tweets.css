@@ -1,0 +1,36 @@
+.tweets{
+  font-family: 'Montserrat';
+}
+.tweets .background {
+  background: #8a2387; 
+  background: -webkit-linear-gradient(to right, #f27121, #e94057, #8a2387);
+  background: linear-gradient(to right, #f27121, #e94057, #8a2387);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.tweets .tweet-heading{
+  font-family: Gugi;
+  font-size: 4em;
+  letter-spacing: 0em;
+  color: white;
+}
+
+.tweets button {
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 20;
+  border: none;
+  min-width: 15%;
+  -webkit-box-shadow: 10px 18px 49px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 18px 49px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 18px 49px -3px rgba(0, 0, 0, 0.75);
+  color: white;
+  background-color: #1565c0;
+  transition: 0.5s;
+}
+
+.tweets button:hover {
+  background-color: #2196f3;
+  transform: translate(5px, 5px);
+}
