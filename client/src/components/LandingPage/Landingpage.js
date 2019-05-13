@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import GoogleFontLoader from "react-google-font-loader";
 import Nav from "../Nav/Nav";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
@@ -15,7 +14,8 @@ export default class landingpage extends Component {
   };
 
   clickHandler = e => {
-    if (e.key === "Enter") {
+    e.preventDefault();
+    if (this.state.username !== "") {
       this.props.history.push("/tweets/" + this.state.username);
     }
   };
@@ -47,18 +47,17 @@ export default class landingpage extends Component {
               <span className="heading-primary-sub">A Tweet Dashboard</span>
             </h1>
             <div className="my-2 form">
-              <input
-                type="text"
-                value={this.state.username}
-                placeholder="Enter Username"
-                className="px-3 "
-                onChange={this.onUsernameChange}
-                onKeyDown={this.clickHandler}
-              />
-              <br />
-              <Link to={`/tweets/${this.state.username}`}>
-                <button className="mt-3 text-center mx-auto">Search</button>
-              </Link>
+              <form onSubmit={this.clickHandler}>
+                <input
+                  type="text"
+                  value={this.state.username}
+                  placeholder="Enter Username"
+                  className="px-3 "
+                  onChange={this.onUsernameChange}
+                />
+                <br />
+                  <button className="mt-3 text-center mx-auto">Search</button>
+              </form>
             </div>
           </div>
         </div>
